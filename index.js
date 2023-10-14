@@ -29,3 +29,17 @@ const calcAge2 = function (birthYear) {
 };
 const age2 = calcAge2(1989);
 console.log(age1, age2);
+
+// Arrow function
+const calAge3 = (birthYear) => 2037 - birthYear;
+const age3 = calAge3(1991);
+console.log(age3);
+
+const yearUntilRetiremnet = (birthYear, firsrtName) => {
+	const age = 2037 - birthYear;
+	const retiremnets = 65 - age;
+	// return retiremnets;
+	return `${firsrtName} retires in ${retiremnets} years`;
+};
+console.log(yearUntilRetiremnet(1989, 'Nazmul'));
+console.log(yearUntilRetiremnet(1992, 'Alam'));
