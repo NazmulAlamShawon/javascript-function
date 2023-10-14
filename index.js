@@ -43,3 +43,20 @@ const yearUntilRetiremnet = (birthYear, firsrtName) => {
 };
 console.log(yearUntilRetiremnet(1989, 'Nazmul'));
 console.log(yearUntilRetiremnet(1992, 'Alam'));
+
+
+// recepi juices elemeents
+function cutFruitePicess(fruite) {
+	return fruite * 4;
+}
+// cutFruitePicess er sathe ei fruitProcessor function ke add korte hobe
+function fruitProcessor(apples, oranges) {
+	//  connection with cutFruitePicess and add with parameters
+	//  capture parameters other functions
+	const applePieces = cutFruitePicess(apples);
+	const orangesPieces = cutFruitePicess(oranges);
+	// invoke function outer capture function with parameters
+	const juice = `Juice with ${applePieces} apples and $ ${orangesPieces} oranges.`;
+	return juice;
+}
+console.log(fruitProcessor(2, 3));
