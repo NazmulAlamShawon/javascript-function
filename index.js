@@ -44,7 +44,6 @@ const yearUntilRetiremnet = (birthYear, firsrtName) => {
 console.log(yearUntilRetiremnet(1989, 'Nazmul'));
 console.log(yearUntilRetiremnet(1992, 'Alam'));
 
-
 // recepi juices elemeents
 function cutFruitePicess(fruite) {
 	return fruite * 4;
@@ -60,3 +59,25 @@ function fruitProcessor(apples, oranges) {
 	return juice;
 }
 console.log(fruitProcessor(2, 3));
+//another data structure object
+const nazmulArray = ['Nazmul', 'Alam', 'teacher', ['nanziba', 'topu', 'abdullah']];
+
+const nazmuls = {
+	firsrtName: 'nazmuls',
+	lastName: 'alam',
+	age: 2023 - 1989,
+	job: 'teacher',
+	friends: ['rubels', 'rakib', 'istiak', 'kanon', 'rabbi'],
+};
+console.log(nazmuls.job);
+console.log(nazmuls.firsrtName);
+console.log(nazmuls.age);
+const nameKey = 'Name';
+// dot notation capture real final properties names
+//  exmaple: console.log(nazmuls.lastName);
+
+console.log(nazmuls['first' + nameKey]);
+console.log(nazmuls['last' + nameKey]);
+
+const intertestIn = prompt('What do you want to know about shawon?');
+console.log(nazmuls[intertestIn]);
