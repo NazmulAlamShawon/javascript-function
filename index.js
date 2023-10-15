@@ -129,9 +129,9 @@ const restaurent = {
 	categories: ['kabab', 'birani', 'dessert'],
 	startMenu: ['jali kabab', 'haidarabadi birani', 'faluda'],
 	mainMenu: ['birani', 'drinks', 'misty'],
-	order: function(startMenu,mainMenu){
-		return [this.startMenu[startMenu],this.mainMenu[mainMenu]]
-	}
+	order: function (startMenu, mainMenu) {
+		return [this.startMenu[startMenu], this.mainMenu[mainMenu]];
+	},
 };
 
 const arr = [2, 3, 4];
@@ -147,10 +147,10 @@ const temp = mainMenu;
 mainMenu = secondary;
 secondary = temp;
 console.log(mainMenu, secondary);
-const [startter,mainCourse]= restaurent.order(2, 0);
+const [startter, mainCourse] = restaurent.order(2, 0);
 console.log(startter, mainCourse);
 
-//  ... spreade operator copy data from array and add data 
+//  ... spreade operator copy data from array and add data
 //  copy array
 //  joim 2 array
 
@@ -163,3 +163,11 @@ console.log(startter, mainCourse);
 // Use for unique values
 //  Use high performance
 //  Use remove duplicates
+// objects vs maps
+// traditional way to store value
+// easier writen access values
+// MAPS
+// better performance
+// key can have any data type
+// easy to iterate
+// easy to compute size
