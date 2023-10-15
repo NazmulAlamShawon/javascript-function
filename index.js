@@ -171,3 +171,18 @@ console.log(startter, mainCourse);
 // key can have any data type
 // easy to iterate
 // easy to compute size
+
+const bookings = [];
+const createBooking = function (flghtNum, numPaasengers=1, price=199) {
+	
+	const booking = {
+		flghtNum,
+		numPaasengers,
+		price,
+	};
+	console.log(booking);
+	bookings.push(booking);
+};
+
+createBooking('LH123', 'Nazmul Alam',);
+createBooking('LH12', 'Nazmul Alam',);
