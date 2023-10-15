@@ -155,3 +155,11 @@ console.log(startter, mainCourse);
 //  joim 2 array
 
 // Iterables: arrays,string,map,set NOT objects
+
+//  array vs stes
+//  when we are use order list values and duplicate values
+// data manupulation
+// sets
+// Use for unique values
+//  Use high performance
+//  Use remove duplicates
