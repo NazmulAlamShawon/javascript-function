@@ -186,3 +186,4 @@ const createBooking = function (flghtNum, numPaasengers=1, price=199) {
 
 createBooking('LH123', 'Nazmul Alam',);
 createBooking('LH12', 'Nazmul Alam',);
+console.log(createBooking);
