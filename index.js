@@ -173,8 +173,7 @@ console.log(startter, mainCourse);
 // easy to compute size
 
 const bookings = [];
-const createBooking = function (flghtNum, numPaasengers=1, price=199) {
-	
+const createBooking = function (flghtNum, numPaasengers = 1, price = 199) {
 	const booking = {
 		flghtNum,
 		numPaasengers,
@@ -184,6 +183,21 @@ const createBooking = function (flghtNum, numPaasengers=1, price=199) {
 	bookings.push(booking);
 };
 
-createBooking('LH123', 'Nazmul Alam',);
-createBooking('LH12', 'Nazmul Alam',);
+createBooking('LH123', 'Nazmul Alam');
+createBooking('LH12', 'Nazmul Alam');
 console.log(createBooking);
+
+const sitbookings = [];
+const createsitBooking = function (flghtNum, numPaasengers = 1, price = 199) {
+	const booking = {
+		sitNum,
+		numPaasengers,
+		price,
+	};
+	console.log(sitbookings);
+	bookings.push(sitbookings);
+};
+
+createBooking('A2', 'Nazmul Alam');
+createBooking('A3', 'Nazmul Alam');
+console.log(createsitBooking);
