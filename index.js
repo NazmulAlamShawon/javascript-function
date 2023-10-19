@@ -188,16 +188,16 @@ createBooking('LH12', 'Nazmul Alam');
 console.log(createBooking);
 
 const sitbookings = [];
-const createsitBooking = function (flghtNum, numPaasengers = 1, price = 199) {
+const createsitBooking = function (sitNum, numPaasengers = 1, price = 199) {
 	const booking = {
 		sitNum,
 		numPaasengers,
 		price,
 	};
-	console.log(sitbookings);
-	bookings.push(sitbookings);
+	console.log(booking);
+	bookings.push(booking);
 };
 
-createBooking('A2', 'Nazmul Alam');
-createBooking('A3', 'Nazmul Alam');
+createsitBooking('A2', 'Nazmul Alam');
+createsitBooking('A3', 'Nazmul Alam');
 console.log(createsitBooking);
